@@ -1,0 +1,24 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "cursos alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adolfoOes/alura.git"
+  },
+  "keywords": [
+    "gateway",
+    "alura",
+    "api"
+  ],
+  "author": "adolfo.oestereich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adolfoOes/alura/issues"
+  },
+  "homepage": "https://github.com/adolfoOes/alura#readme"
+}
