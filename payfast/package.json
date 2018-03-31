@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/adolfoOes/alura#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "consign": "^0.1.6",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
   }
 }

@@ -9,8 +9,12 @@ module.exports = function(app){
     app.post('/pagamentos/pagamento', function(req, res){
 
         var pagamento = req.body;
-        console.log(pagamento);
-        res.send('OK');
+        console.log('Processando requisição de pagamento.');
+
+        pagamento.status = "CRIADO";
+        pagamento.dataCriacao = new Date;
+
+        res.send(pagamento);
         
     });    
 
